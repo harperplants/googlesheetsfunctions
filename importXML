@@ -1,0 +1,6 @@
+https://support.google.com/docs/answer/3093342?hl=en
+1) Enter the URL you want to pull hyperlinks from into Google Sheets
+2) The second argument for hyperlinks is "//a/@href"
+
+Example:
+=IMPORTXML("https://www.zillow.com/homes/Santa-Fe,-NM_rb/","//a/@href")
